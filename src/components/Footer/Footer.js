@@ -17,18 +17,11 @@ import {
 const Footer = () => {
   return (
     <FooterWrapper>
-      <LinkList>
-        <LinkColumn>
-          <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:dev@gabrielbolea.pt">
-            dev@gabrielbolea.pt
-          </LinkItem>
-        </LinkColumn>
-      </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>Innovating one project at a time</Slogan>
           <Slogan> © 2021 | gabrielbolea.pt </Slogan>
+          <Slogan href="mailto:dev@gabrielbolea.pt">dev@gabrielbolea.pt</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="#">
