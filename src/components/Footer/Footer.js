@@ -1,5 +1,6 @@
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { IoMdMail } from "react-icons/io";
 
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
@@ -20,8 +21,7 @@ const Footer = () => {
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>Innovating one project at a time</Slogan>
-          <Slogan> © 2021 | gabrielbolea.pt </Slogan>
-          <Slogan href="mailto:dev@gabrielbolea.pt">dev@gabrielbolea.pt</Slogan>
+          <Slogan>dev@gabrielbolea.pt</Slogan>© 2021 | gabrielbolea.pt
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="#">
